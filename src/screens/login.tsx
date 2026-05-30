@@ -1,9 +1,12 @@
-import { Text, View } from "react-native"
+import { Text, TextInput, View } from "react-native"
+import { DismissKeyboardView } from "../components/DismissKeyboardView"
+
 
 export const Login = () => {
     return (
-        <View className="flex-1 items-center justify-center">
+        <DismissKeyboardView>
             <Text>Tela de login!</Text>
-        </View>
+            <TextInput className="bg-gray-500 w-full" />
+        </DismissKeyboardView>
     )
 }

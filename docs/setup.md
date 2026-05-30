@@ -89,3 +89,12 @@ comandos
 npm install @react-navigation/stack
 npx expo install react-native-gesture-handler @react-native-masked-view/masked-view
 ```
+
+- instalar o edge-to-edge
+
+- essa lib vai fazer com que nosso aplicativo utilize 
+100% da nossa tela.
+
+```bash
+npx expo install react-native-edge-to-edge
+```
