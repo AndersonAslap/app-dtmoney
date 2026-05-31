@@ -112,3 +112,12 @@ npm install react-hook-form
 ```bash
 npx expo install @expo/vector-icons
 ```
+
+- instalar a lib clsx ela serve para criar strings condicionais
+de forma perfomática e eficiente
+
+```
+npm i clsx
+```
+
+---

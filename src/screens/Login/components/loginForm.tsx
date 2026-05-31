@@ -18,9 +18,18 @@ export const LoginForm = () => {
             <AppInput
                 control={control}
                 name="email"
-                label="Email"
-                leftIconName="mail"
+                label="EMAIL"
+                leftIconName="mail-outline"
                 placeholder="mail@examle.com"
+            />
+
+            <AppInput
+                control={control}
+                name="password"
+                label="SENHA"
+                leftIconName="lock-outline"
+                placeholder="Sua senha"
+                secureTextEntry
             />
         </>
     )
