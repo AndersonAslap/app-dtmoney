@@ -21,14 +21,15 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false,
       "package": "com.aslap.appdtmoney"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "react-native-edge-to-edge"
+      "react-native-edge-to-edge",
+      "expo-font",
+      "expo-asset"
     ]
   }
 }

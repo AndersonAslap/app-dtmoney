@@ -1,5 +1,5 @@
 import { createStackNavigator } from "@react-navigation/stack"
-import { Home } from "../screens/home";
+import { Home } from "../screens/Home";
 
 export type PrivateStackRoutes = {
     home: undefined;

@@ -1,6 +1,6 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import { Login } from "../screens/login";
-import { Register } from "../screens/register";
+import { Login } from "../screens/Login";
+import { Register } from "../screens/Register";
 
 export type PublicStackRoutes = {
     login: undefined;

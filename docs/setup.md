@@ -98,3 +98,17 @@ npx expo install react-native-gesture-handler @react-native-masked-view/masked-v
 ```bash
 npx expo install react-native-edge-to-edge
 ```
+
+- instalar biblioteca do react hook form 
+uma biblioteca voltada para construções de formulários
+no react
+
+```bash
+npm install react-hook-form
+```
+
+- instalar lib de icones
+
+```bash
+npx expo install @expo/vector-icons
+```
